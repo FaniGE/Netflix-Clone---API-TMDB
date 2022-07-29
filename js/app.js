@@ -102,6 +102,8 @@ async function obtenerPeliculasGenero(genero, elemento){
 
 
 async function obtenerPeliculas() {
+     document.getElementById('found-result').style.display = "none";
+    document.getElementById('not-found').style.display = "none";
     let consulta = document.getElementById('consulta').value;
     //alert(consulta);
     if(consulta == ''){
