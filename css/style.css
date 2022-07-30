@@ -13,9 +13,6 @@ body {
     margin-left: 3%;
     fill: #E50914;
 }
-.login-box {
-position: static;
-}
 #form {
     background-image: linear-gradient(rgba(0, 0, 0, 0.659), rgba(0, 0, 0, 0.416)) , url(../img/background_login.jpg);
 }
